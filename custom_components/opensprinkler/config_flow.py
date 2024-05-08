@@ -49,8 +49,8 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 mac_address = user_input.get(CONF_MAC)
 
                 opts = {
-                    "session": async_get_clientsession(self.hass), 
-                    "verify_ssl": verify_ssl
+                    "session": async_get_clientsession(self.hass),
+                    "verify_ssl": verify_ssl,
                 }
                 controller = OpenSprinkler(url, password, opts)
                 await controller.refresh()

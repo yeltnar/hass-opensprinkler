@@ -7,9 +7,9 @@ import async_timeout
 from aiohttp.client_exceptions import InvalidURL
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
-    CONF_PASSWORD, 
-    CONF_SCAN_INTERVAL, 
-    CONF_URL, 
+    CONF_PASSWORD,
+    CONF_SCAN_INTERVAL,
+    CONF_URL,
     CONF_VERIFY_SSL
 )
 from homeassistant.core import HomeAssistant, ServiceCall

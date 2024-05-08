@@ -10,7 +10,7 @@ from homeassistant.const import (
     CONF_PASSWORD,
     CONF_SCAN_INTERVAL,
     CONF_URL,
-    CONF_VERIFY_SSL
+    CONF_VERIFY_SSL,
 )
 from homeassistant.core import HomeAssistant, ServiceCall
 from homeassistant.exceptions import ConfigEntryNotReady
